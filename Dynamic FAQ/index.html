@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic FAQ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="faq">
+    <h1>Frequently Asked Questions</h1>
+    <div class="question" onclick="faq(this)" >
+      What is html? 
+      <span class="icon">+</span>
+      </div>
+    <p class="answer">
+      ✅  HTML (HyperText Markup Language) <br>
+      HTML is the standard language used to create the structure of web pages. It tells the browser what elements are on the page like headings, paragraphs, images, buttons, etc.
+    </p>
+
+    <div class="question" onclick="faq(this)">
+      What is CSS?
+      <span class="icon">+</span>
+    </div>
+    <p class="answer">
+      🎨 CSS (Cascading Style Sheets) <br>
+      CSS is used to style HTML elements. It controls the colors, fonts, layout, spacing, and responsiveness of a website.
+    </p>
+    <div class="question" onclick="faq(this)">
+      What is JavaScript?
+      <span class="icon">+</span>
+    </div>
+    <p class="answer">
+      ⚙️ JavaScript (JS) <br>
+      JavaScript is a programming language that adds interactivity and behavior to web pages. It lets you respond to user actions like clicks, typing, scrolling, etc.
+    </p>
+    <div class="question" onclick="faq(this)">
+      What is React?
+      <span class="icon">+</span>
+    </div>
+    <p class="answer">
+      ⚛️  React (A JavaScript Library) <br>
+      React is a JavaScript library (created by Facebook) for building user interfaces, especially for single-page applications (SPAs). It helps you build UI using components.
+    </p>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

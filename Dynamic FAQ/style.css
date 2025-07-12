@@ -1,0 +1,50 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: rgb(23, 22, 22);
+}
+.faq {
+  width: 70vw;
+  margin: 0 auto;
+}
+.faq h1 {
+  color: white;
+  text-align: center;
+}
+.question {
+  border: 1px solid #000;
+  margin: 5px 0px;
+  font-size: 18px;
+  background-color: rgb(49, 48, 48);
+  color: white;
+  padding: 15px;
+  display: inline-block;
+  width: 100%;
+}
+.answer {
+  background-color: rgb(49, 48, 48);
+  color: white;
+  font-size: 12px;
+  margin: 0px;
+  padding: 0px 15px;
+  line-height: 2;
+  max-height: 0px;
+  overflow: hidden;
+  width: 100%;
+  transition: max-height 0.4s ease;
+}
+.active {
+  max-height: 1000px; /* or use scrollHeight in JS */
+}
+.icon {
+  /* display: inline-block; */
+  transition: transform 0.3s ease;
+  font-size: 25px;
+  float: right;
+  line-height: 0.8;
+  cursor: pointer;
+}
+.rotate {
+  transform: rotate(45deg);
+}
