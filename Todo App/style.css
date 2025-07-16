@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  width: 50%;
+  margin: auto;
+  min-height: 100vh;
+  gap: 1rem;
+}
+h1 {
+  text-align: center;
+}
+.todo-grid {
+  display: grid;
+  grid-template-columns: 200px 200px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  padding: 8px 15px;
+  font-size: 16px;
+  align-items: center;
+}
+#todo {
+  padding: 8px 15px;
+  font-size: 16px;
+}
+#date {
+  padding: 8px 15px;
+  font-size: 16px;
+}
+.todo-text {
+  margin-left: 1rem;
+  font-size: 18px;
+}
+.todod {
+  margin-left: 1rem;
+  font-size: 18px;
+}
+.btn {
+  padding: 12px 7px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(145, 6, 6);
+  font-weight: 600;
+  cursor: pointer;
+}
+.btn-green {
+  background-color: rgb(5, 89, 5);
+}
