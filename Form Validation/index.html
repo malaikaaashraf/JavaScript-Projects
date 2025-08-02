@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Form Validation</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>Signup</h1>
+    </div>
+
+    <form action="#">
+      <div class="fullName input">
+        <label for="name">Full Name</label>
+        <div>
+          <input type="text" name="FullName" id="name" class="box" placeholder="Type Name Here">
+          <i class="fa-solid  " id="sideIcon"></i>
+        </div>
+        <span class="erorMsgName erorMsg"></span>
+      </div>
+      <div class="email input">
+        <label for="email">Email</label>
+        <div>
+          <input type="email" name="Email" id="email" class="box" placeholder="xyz@gmail.com">
+          <i class="fa-solid " id="sideIcon"></i>
+        </div>
+        <span class="erorMsgEmail erorMsg"></span>
+      </div>
+      <div class="password input">
+        <label for="password">Password</label>
+        <div>
+          <input type="password" name="Password" id="password" class="box" placeholder="at least 8 characters">
+          <i class="fa-solid  " id="sideIcon"></i>
+        </div>
+        <span class="erorMsgPassword erorMsg"></span>
+      </div>
+      <div class="btn">
+        <button type="submit" class="btnBox">Create Account</button>
+      </div>
+    </form>
+
+    <div class="logIn">
+      <span>Already have an account? <a href="#" class="loginOption">Login</a></span>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
